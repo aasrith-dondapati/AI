@@ -4,9 +4,17 @@ import pandas as pd
 import os
 from gtts import gTTS
 import base64
+import ssl
 
+# Temporary SSL context fix - remove this in production
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
 # read language dataset
-df = pd.read_csv(r'your_path/language.csv')
+df = pd.read_csv(r'/Users/aasrithdondapati/Desktop/DataScience and AI/AI/Language Translation - Text to Audio/MULTIPLE LANGUAGE TRANSLATION/language.csv')
 df.dropna(inplace=True)
 lang = df['name'].to_list()
 langlist=tuple(lang)
