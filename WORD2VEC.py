@@ -5,7 +5,7 @@ from nltk.corpus import stopwords
 
 import re
 
-paragraph = """I have three visions for India. In 3000 years of our history, people from all over 
+paragraph = """I have three visions for India. In 3000 years of our history, people from all over
                the world have come and invaded us, captured our lands, conquered our minds. 
                From Alexander onwards, the Greeks, the Turks, the Moguls, the Portuguese, the British,
                the French, the Dutch, all of them came and looted us, took over what was ours. 
@@ -73,3 +73,4 @@ similar = model.wv.most_similar('vikram')
 similar = model.wv.most_similar('son')
 
 #STILL MORE RESEARCH GOING ON REGARDS TO THE WORD2VEC
+
