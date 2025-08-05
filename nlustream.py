@@ -128,3 +128,4 @@ if st.button("Translate and Read Aloud"):
         except Exception as e:
             st.error(f"Translation to {language_name} failed: {e}")
 
+
