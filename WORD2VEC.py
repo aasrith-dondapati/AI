@@ -74,3 +74,4 @@ similar = model.wv.most_similar('son')
 
 #STILL MORE RESEARCH GOING ON REGARDS TO THE WORD2VEC
 
+
