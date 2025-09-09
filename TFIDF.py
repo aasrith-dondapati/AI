@@ -6,7 +6,7 @@ paragraph =  """I have three visions for India. In 3000 years of our history, pe
                the French, the Dutch, all of them came and looted us, took over what was ours. 
                Yet we have not done this to any other nation. We have not conquered anyone. 
                We have not grabbed their land, their culture, 
-               their history and tried to enforce our way of life on them. 
+               their history and tried to enforce our way of life on them.
                Why? Because we respect the freedom of others.That is why my 
                first vision is that of freedom. I believe that India got its first vision of 
                this in 1857, when we started the War of Independence. It is this freedom that
@@ -55,6 +55,7 @@ X1 = cv1.fit_transform(corpus).toarray()
 from sklearn.feature_extraction.text import TfidfVectorizer
 cv = TfidfVectorizer()
 X = cv.fit_transform(corpus).toarray()
+
 
 
 
