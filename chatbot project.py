@@ -12,7 +12,7 @@ pairs = [
     ],
      [
         r"(.*) your name ?",
-        ["My name is thecleverprogrammer, but you can just call me robot and I'm a chatbot .",]
+        ["My name is thecleverprogrammer, but you can just call me bot and I'm a chatbot .",]
     ],
     [
         r"how are you (.*) ?",
@@ -76,6 +76,7 @@ chat = Chat(pairs, reflections)
 
 
 chat.converse()
+
 
 
 
