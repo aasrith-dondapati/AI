@@ -41,7 +41,7 @@ pairs = [
     ],
     [
         r"(.*) (location|city) ?",
-        ['hyderabad, India',]
+        ['Australia',]
     ],
     [
         r"(.*)raining in (.*)",
@@ -76,6 +76,7 @@ chat = Chat(pairs, reflections)
 
 
 chat.converse()
+
 
 
 
